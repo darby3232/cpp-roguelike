@@ -2,7 +2,7 @@
 #include <SDL2/SDL.h>
 #include <stdio.h>
 
-#include "GameManager.h"
+#include "GameManager.hpp"
 
 // Screen dimension constraints
 const int SCREEN_WIDTH = 640;

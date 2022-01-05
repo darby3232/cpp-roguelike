@@ -2,7 +2,7 @@
 # Specify our directories
 SRC_DIR := src
 OBJ_DIR := obj
-BIN_DIR := .
+BIN_DIR := bin
 
 # Name our exe
 EXE := $(BIN_DIR)/game
@@ -40,6 +40,8 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp | $(OBJ_DIR)
 # Have to change -p (linux) for -ea 0 (powershell -_- )
 $(BIN_DIR) $(OBJ_DIR):
 	mkdir $@ -ea 0
+
+RM = del /Q /F
 
 clean:
 	@$(RM) -rv $(BIN_DIR) $(OBJ_DIR)

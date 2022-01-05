@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "GameManager.h"
+#include "GameManager.hpp"
 
 void GameManager::start()
 {
