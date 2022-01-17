@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/GameDevelopment/CPP_ProcGame/cpp-roguelike/build",
+  "command": "F:\\DevTools\\MinGW64_32bit\\mingw32\\bin\\i686-w64-mingw32-g++.exe  @CMakeFiles/CPP_Roguelike.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\CPP_Roguelike.dir\\main.cpp.obj -c F:\\GameDevelopment\\CPP_ProcGame\\cpp-roguelike\\main.cpp",
+  "file": "F:/GameDevelopment/CPP_ProcGame/cpp-roguelike/main.cpp"
+},
+{
+  "directory": "F:/GameDevelopment/CPP_ProcGame/cpp-roguelike/build/EventSystem",
+  "command": "F:\\DevTools\\MinGW64_32bit\\mingw32\\bin\\i686-w64-mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\EventSystem.dir\\EventBus.cpp.obj -c F:\\GameDevelopment\\CPP_ProcGame\\cpp-roguelike\\EventSystem\\EventBus.cpp",
+  "file": "F:/GameDevelopment/CPP_ProcGame/cpp-roguelike/EventSystem/EventBus.cpp"
+}
+]

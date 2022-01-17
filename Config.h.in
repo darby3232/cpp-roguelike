@@ -1,0 +1,3 @@
+// the configured options and settigns for Tutorial
+#define CPP_Roguelike_VERSION_MAJOR @CPP_Roguelike_VERSION_MAJOR@
+#define CPP_Roguelike_VERSION_MINOR @CPP_Roguelike_VERSION_MINOR@

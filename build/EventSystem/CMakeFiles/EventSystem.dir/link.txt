@@ -1,0 +1,2 @@
+F:\DevTools\MinGW64_32bit\mingw32\bin\ar.exe qc libEventSystem.a CMakeFiles/EventSystem.dir/EventBus.cpp.obj
+F:\DevTools\MinGW64_32bit\mingw32\bin\ranlib.exe libEventSystem.a
