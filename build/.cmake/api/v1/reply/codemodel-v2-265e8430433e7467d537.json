@@ -13,7 +13,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.15"
+						"string" : "3.20"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					"jsonFile" : "directory-EventSystem-Debug-4d4971ab9dd256c595f3.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.15"
+						"string" : "3.20"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CPP_Roguelike::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CPP_Roguelike-Debug-8099109c1b950288d07f.json",
+					"jsonFile" : "target-CPP_Roguelike-Debug-4d7be115d8642dc138f6.json",
 					"name" : "CPP_Roguelike",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "EventSystem::@99db00aa1edb26b89080",
-					"jsonFile" : "target-EventSystem-Debug-8b2a1a2030ebc432e608.json",
+					"jsonFile" : "target-EventSystem-Debug-84820b8929456c3d5524.json",
 					"name" : "EventSystem",
 					"projectIndex" : 0
 				}

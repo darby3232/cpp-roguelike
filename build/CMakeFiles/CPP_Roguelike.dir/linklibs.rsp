@@ -1,1 +1,1 @@
- EventSystem/libEventSystem.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ F:/DevTools/vcpkg/vcpkg/installed/x86-windows/debug/lib/SDL2d.lib F:/DevTools/vcpkg/vcpkg/installed/x86-windows/debug/lib/manual-link/SDL2maind.lib F:/DevTools/vcpkg/vcpkg/installed/x86-windows/debug/lib/imguid.lib EventSystem/libEventSystem.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

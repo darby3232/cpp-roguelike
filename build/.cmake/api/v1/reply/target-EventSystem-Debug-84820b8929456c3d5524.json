@@ -6,27 +6,35 @@
 			"path" : "EventSystem/libEventSystem.a"
 		}
 	],
-	"backtrace" : 1,
+	"backtrace" : 2,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
+			"_add_library",
 			"add_library"
 		],
 		"files" : 
 		[
+			"F:/DevTools/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake",
 			"EventSystem/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
 			{
-				"file" : 0
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
-				"parent" : 0
+				"line" : 578,
+				"parent" : 1
 			}
 		]
 	},
@@ -47,7 +55,7 @@
 			{
 				"backtraces" : 
 				[
-					1
+					2
 				],
 				"standard" : "11"
 			},
@@ -78,7 +86,7 @@
 	"sources" : 
 	[
 		{
-			"backtrace" : 1,
+			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "EventSystem/EventBus.cpp",
 			"sourceGroupIndex" : 0
