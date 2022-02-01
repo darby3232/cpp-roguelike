@@ -1,2 +1,0 @@
-F:\DevTools\MinGW64_32bit\mingw32\bin\ar.exe qc libSDL2.a 
-F:\DevTools\MinGW64_32bit\mingw32\bin\ranlib.exe libSDL2.a

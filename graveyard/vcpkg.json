@@ -1,0 +1,18 @@
+{
+    "name": "versions-test",
+    "version": "1.0.0",
+    "dependencies": [
+        {
+            "name": "sdl2",
+            "version>=": "2.0.20"
+        },
+		{
+			"name": "imgui",
+			"features":[
+				"sdl2-binding",
+				"sdl2-renderer-binding"
+			]
+		}
+    ],
+    "builtin-baseline": "926ef6075c8ad300b24cf51933b63578b8c5114b"
+}
