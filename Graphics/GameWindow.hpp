@@ -15,8 +15,9 @@ class GameWindow
 {
 
 public:
-	void start(GraphicsData* graphicsData);
-	bool update();
+	void start(GraphicsData& graphicsData);
+	void update();
+	bool handleEvent(SDL_Event& event); // returns true if 
 	void cleanup();
 
 private:

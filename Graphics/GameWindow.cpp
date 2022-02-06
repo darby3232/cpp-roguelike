@@ -1,6 +1,6 @@
 #include "GameWindow.hpp"
 
-void GameWindow::start(GraphicsData* graphicsData)
+void GameWindow::start(GraphicsData& graphicsData)
 {	
     // Initialize SDL
     if(SDL_Init(SDL_INIT_VIDEO) < 0)
@@ -10,7 +10,7 @@ void GameWindow::start(GraphicsData* graphicsData)
     }
 
     // Create the window
-    window = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, graphicsData->window_x, graphicsData->window_y, SDL_WINDOW_SHOWN);
+    window = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, graphicsData.window_x, graphicsData.window_y, SDL_WINDOW_SHOWN);
 
     if(window == NULL)
     {
@@ -53,7 +53,15 @@ void GameWindow::start(GraphicsData* graphicsData)
 
 }
 
-bool GameWindow::update()
+bool GameWindow::handleEvent(SDL_Event& event){
+
+    if (event.type == SDL_WINDOWEVENT && event.window.event == SDL_WINDOWEVENT_CLOSE && event.window.windowID == SDL_GetWindowID(window))
+        return true;
+
+    return false; 
+}
+
+void GameWindow::update()
 {
 	// Start the Dear ImGui frame
 	ImGui_ImplSDLRenderer_NewFrame();

@@ -75,3 +75,10 @@ target_link_libraries(CPP_Roguelike PUBLIC core)
 
 # Add my libraries
 # target_link_libraries(CPP_Roguelike PUBLIC ${EXTRA_LIBS})
+
+
+# Copy assets to the exe folder
+add_custom_command(TARGET CPP_Roguelike POST_BUILD
+	COMMAND ${CMAKE_COMMAND} -E copy_directory
+	${CMAKE_SOURCE_DIR}/assets/ $<TARGET_FILE_DIR:CPP_Roguelike>/assets
+)

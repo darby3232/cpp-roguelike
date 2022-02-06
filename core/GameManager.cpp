@@ -12,14 +12,12 @@ void GameManager::start()
     printf("Starting Game Manager.");
 
     this->graphicsData = new GraphicsData();
-    this->graphicsData->load("./graphics_data.toml");
+    this->graphicsData->load("./assets/data/graphics_data.toml");
+
+    std::cout << "post load" << std::endl;
 
     this->gameWindow = new GameWindow();
     
-
-    //GameManager* gm = new GameManager();
-    // gm -> start();
-
     // Wait two seconds
     SDL_Delay(2000);
 
@@ -33,12 +31,12 @@ void GameManager::start()
             ImGui_ImplSDL2_ProcessEvent(&event);
             if(event.type == SDL_QUIT)
                 done = true;
-             if (event.type == SDL_WINDOWEVENT && event.window.event == SDL_WINDOWEVENT_CLOSE && event.window.windowID == SDL_GetWindowID(window))
-                done = true;
+
+            gameWindow->handleEvent(event);
         }
 
+        gameWindow->update();
+
     }
-    
-    
 
 }
